@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import Footer from ".//footer.js";
 
 const Layout = ({ children }) => {
   return (
@@ -11,12 +12,10 @@ const Layout = ({ children }) => {
         <li>
           <Link to="/about">About</Link>
         </li>
-        <li>
-          This is not a link
-        </li>
+        <li>This is not a link</li>
       </ul>
       <main>{children}</main>
-      <footer>I'm the footer</footer>
+      <Footer></Footer>
     </div>
   );
 };
