@@ -39,7 +39,7 @@ template {
   display: none;
 }
 a {
-  color: rgba(0, 0 , 0, .8);
+  color: rgba(0, 0, 0, 0.8);
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -608,6 +608,18 @@ pre tt:after {
   }
 }
 
+ul {
+  list-style: none;
+}
+
 .fancy {
-    color: pink;
+  color: pink;
+}
+
+[aria-current] {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rebeccapurple;
+  color: white;
+  padding: 8px;
 }
